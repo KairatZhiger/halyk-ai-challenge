@@ -26,7 +26,7 @@ def build_pdf_index(account_map: dict[str, str], data_dir: Path) -> dict[str, di
 
 def run(
     openai_api_key: str,
-    model: str = "gpt-5.6-sol",
+    model: str = "gpt-5.4-mini",
     team: str = "",
     email: str = "",
     scenarios: list[str] | None = None,
@@ -129,7 +129,7 @@ if __name__ == "__main__":
 
     result = run(
         openai_api_key=api_key,
-        model="gpt-4o",
+        model="gpt-5.4-mini",
         team="hilarious",
         email="sherizatk@gmail.com",
         data_dir=data_dir,
