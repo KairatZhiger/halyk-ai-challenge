@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+agentic-bank-hidden/
+venv/
+*.egg-info/
+.idea/
+.vscode/
+submission.json
